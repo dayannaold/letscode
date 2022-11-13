@@ -1,0 +1,24 @@
+#main{
+    background: green;
+    border: 5px solid rgb(154, 41, 41);
+    
+}
+
+.conteudo{
+    background: rgb(24, 14, 206);
+    border: 5px solid rgb(52, 25, 67);
+    width: 200px;
+    height:200px;
+
+
+}
+.clear{
+    clear: both;
+}
+/* .conteudo1{
+    background: blue;
+    border: 1px solid gray;
+    width:150px;
+    height:150px;
+    float: left;
+} */
