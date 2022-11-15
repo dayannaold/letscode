@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Z-index property</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+				.content1 {
+				border: 1px solid red;
+				background: green;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				z-index: 2;
+			}
+			.content2 {
+				border: 1px solid red;
+				background: blue;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				top: 80px;
+				left: 80px;
+				z-index: 100;
+			}
+			.content3 {
+				border: 1px solid red;
+				background: yellow;
+				width: 200px;
+				height: 200px;
+				position: absolute;
+				top: 160px;
+				left: 160px;
+				z-index: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content1">
+			I
+		</div>
+
+		<div class="content2">
+			Love
+		</div>
+
+		<div class="content3">
+			Colors
+		</div>
+	</body>
+</html>
