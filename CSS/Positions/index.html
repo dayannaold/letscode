@@ -1,0 +1,126 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Static and relative</title>
+        <style type="text/css">
+        body{
+            background: #007fc7;
+            text-align: center;
+    }
+            #container{
+                background: #fff;
+                border:3px;
+                width:800px;
+                margin:10px auto;
+                padding:10px;
+                position: relative;
+            }
+            h1{
+            }
+            p {
+                width: 300px;
+            }
+            /* positions
+            z-index: which element shows first by number*/
+            .fixed{
+        
+                border: 1px solid red;
+                margin:0px;
+                background: #f2f2f2;
+                position:fixed;
+                bottom:0px;
+                /* chat, menus, layouts */
+                right:0px;            
+            }
+            .absolute{
+                border: 1px solid red;
+                background: #f2f2f2;
+                position:absolute;
+                top: 10px;
+                right:20px;
+            
+            }
+            .relative{
+                border: 1px solid red;
+                position:relative;
+                /* top, right, bottom, left */
+                /* top:0px;
+                left:0px;
+                right:20px ; */
+                bottom: -20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+                <h1> Positions </h1>
+                <p>
+                    Look at the stars
+        Look how they shine for you
+        And everything you do
+        Yeah, they were all yellow
+
+        I came along
+        I wrote a song for you
+        And all the things you do
+        And it was called Yellow
+
+        So, then, I took my turn
+        Oh, what a thing to have done
+        And it was all yellow
+                </p>
+                <p class="fixed">
+                    Your skin
+        Oh, yeah, your skin and bones
+        Turn into something beautiful
+        Do you know
+        You know I love you so?
+        You know I love you so?
+
+        I swam across
+        I jumped across for you
+        Oh, what a thing to do
+        'Cause you were all yellow
+                </p>
+                <p>
+                    I drew a line
+        I drew a line for you
+        Oh, what a thing to do
+        And it was all yellow
+
+        And your skin
+        Oh, yeah, your skin and bones
+        Turn into something beautiful
+        Do you know
+        For you, I'd bleed myself dry?
+        For you, I'd bleed myself dry
+
+        It's true
+        Look how they shine for you.
+        Look how they shine for you.
+        Look how they shine for you.
+        </p>
+        <p>
+        It's true
+        Look how they shine for you.
+        Look how they shine for you.
+        Look how they shine for you.
+        </p>
+        <p>
+        It's true
+        Look how they shine for you.
+        Look how they shine for you.
+        Look how they shine for you.
+        </p>
+        <p>
+        It's true
+        Look how they shine for you.
+        Look how they shine for you.
+        Look how they shine for you.  
+        </p>
+        </div>
+    </body>
+    </html>
