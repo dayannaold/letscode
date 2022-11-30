@@ -108,6 +108,31 @@ let x,y;
 x = y = 25 - 10 - 5; //assignment >>> x = y = 10, x = 10
 console.log(x,y);
 
-const averageAge = (ageDay + ageB) / 2 //colocar em parenteses faz com que seja executado primeiro
+const averageAge = (ageDay + ageB) / 2 
+//colocar em parenteses faz com que seja executado primeiro
 console.log(ageDay, ageB, averageAge);
+
+const firstName = 'Dayanna';
+const job = 'teacher';
+const birthYear = 1994;
+const year = 2034;
+
+const dayanna = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old' + job + '!';
+console.log(dayanna);
+// template literals - backticks
+const dayannaNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(`Just a regular string...`);
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`String
+multiples
+lines`);
+*/
+
+//----------taking decisions---------
+
+
 */
