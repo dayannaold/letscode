@@ -13,3 +13,17 @@ let Daymass = 68;
 let Dayheight = 1.69;
 BMIDay = Daymass / Dayheight ** 2
 console.log (BMIDay);
+
+// 
+
+const massMark = 78; 
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJ0hn = 1.95;
+
+const BMIMark = massJohn / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+const markHigherBMI = BMIMark > BMIJohn;
+
+console.log(BMIMark, BMIJohn, markHigherBMI);
+
