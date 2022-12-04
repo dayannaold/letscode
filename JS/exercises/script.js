@@ -133,9 +133,24 @@ lines`);
 
 //----------taking decisions with if and else---------
 */
-const age = 19;
-const isOldEnough = age >= 18;
+const age = 15;
+//const isOldEnough = age >= 18;
 
+//control structure
 if (age >= 18) {
     console.log('Sarah can start driving license 🚗');
+} else {
+    const yearsLeft = 18 - age;
+    console.log (`Sarah is too young. Wait another ${yearsLeft} years :)`);
 }
+//variable conditionally 
+
+const birthYear = 2012;
+if (birthYear <= 2000){
+    //let
+    century = 20;
+} else {
+    //let
+    century = 21;
+}
+console.log(century);
