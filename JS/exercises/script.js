@@ -7,10 +7,11 @@ console.log (23);
 
 // value = small unit = storage them into variables over and over
 
-let firstName = "Dayanna";
-console.log (FirstName);
-console.log (FirstName);
-console.log (FirstName);
+let firstName = "Dayanna"
+let Lastname = "De Oliveira do Nascimento"
+console.log (firstName);
+console.log (Lastname);
+
 // Variables name conventions
 
 let Dayanna_Oliveira = "DON";
