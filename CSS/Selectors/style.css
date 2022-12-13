@@ -1,0 +1,44 @@
+/*Universal
+
+*{
+border: 1px solid red;
+}
+#text
+h1{
+    color:green;
+}
+#class
+
+.green{
+    color:green;
+}
+p.green{
+    color:green;
+}
+#id
+
+#header{
+    border:1px solid blue;
+}
+#childselector
+
+li>a{
+    color: red;
+    text-decoration: none;
+}
+#descendent
+p a {}
+div a {
+    color:green;
+}
+#child adjacente
+
+h1+p{
+    color:red;
+}
+#child general
+
+h1~p {
+    color:pink;
+}
+*/
