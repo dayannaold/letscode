@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Logic</title>
+</head>
+<body>
+    <script>
+        // true && true / && false = true if all are true >> false if one is off
+        // true || true || false = true if one is
+        // (!( 4 == 2)) / true = false inverted
+
+       // if (2 == 2 && 3 >= 5 && 'a' == 'a' ){
+            // document.write('true')}
+        // else {
+            // document.write('false')}
+
+        var gpa =  prompt ('type your score here')
+        var skip =  prompt ('type your skip')
+
+        var gpt = 7
+        var skip_limit = 15
+
+        if ( gpa >= gpt && skip <= skip_limit) {
+            document.write('GG')
+        } else { 
+            document.write('DEFEATED')
+        }
+
+    </script>
+</body>
+</html>
