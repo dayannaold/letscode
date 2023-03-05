@@ -1,11 +1,32 @@
 # letscode
 
-Main class : Udemy Full Stack Course 2022 = https://www.udemy.com/course/web-completo/
+# Main class 
+[Udemy Full Stack PT-BR](https://www.udemy.com/course/web-completo)
 
-Secondary class : The Odin Project = https://www.theodinproject.com/dashboard
+[Javascript: Zero to Master](https://www.udemy.com/course/the-complete-javascript-course/)
 
-Complementary class : CursoEmVideo = https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&ab_channel=CursoemV%C3%ADdeo
+# Secondary class (Free)
+[The Odin Project](https://www.theodinproject.com/dashboard)
 
-Documentation = https://developer.mozilla.org/en-US/
+[LeetCode](https://leetcode.com/)
 
-https://www.w3schools.com/
+[FreeCodeCamp](https://www.freecodecamp.org/)
+
+# Complementary 
+[Curso em Video](https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&ab_channel=CursoemV%C3%ADdeo)
+
+[Eloquent Javascript](https://eloquentjavascript.net/)
+
+# Documentation 
+[Mozilla](https://developer.mozilla.org/en-US/)
+
+[W3C](https://www.w3schools.com)
+
+[Boostrap](https://getbootstrap.com/docs/5.3/getting-started/introduction)
+
+[NPM - package and module](https://docs.npmjs.com/packages-and-modules)
+
+# Support/Community 
+[CHATgp](https://chat.openai.com/auth/login) 
+
+[StackOverFlow](https://stackoverflow.com/)
