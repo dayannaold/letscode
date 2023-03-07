@@ -8,17 +8,28 @@
 </head>
 <body>
     <script>
+
+        //void & return
+
         function calcularAreaTerreno (largura, comprimento) {
         
             var area = largura * comprimento
 
+            //escopo de variaveis
+            //ParseFloat or ParseInt
+            // As funcoes nao precisam ser denominadas antes da chamada da funcao
+
             return area
 
         }
-        var largura
+
+        var largura = prompt('Digite a largura do terreno em metros')
+        var comprimento = prompt('Digite a largura do comprimento em metros')
+
         var area = calcularAreaTerreno (15, 25)
 
         document.write ('O terreno possui ' + area + ' metros quadrados')
+
     </script>
     
 </body>
