@@ -8,7 +8,22 @@
 </head>
 <body>
     <script>
+        function exibirArtigo (id, callbackSucess, callbackError){  
 
+        if ( true ) {
+            callbackSucess('Call back in JS')
+        } else {
+            callbackError('Error')
+        }
+
+        var callbackSucess = function(content){
+
+        }
+        var callbackSucess = function(error){
+            
+        }
+        showMessage(1, callbackSucess(), callbackError())
+    }
     </script>
 </body>
 </html>
