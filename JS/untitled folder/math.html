@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math and Date</title>
+</head>
+<body>
+    <script>
+        //var x = Math.random(10.580)
+        //document.write(x)
+        
+        // distance between Earth and Jupiter
+        //const distance = Math.sqrt(
+            //Math.pow(4.994977666432145 - 0.16209319116042935 , 2) +
+            //Math.pow(1.0493621312872457 - 0.9686428793150534, 2) +
+            //Math.pow(0.1121911453424374 - -0.00004416373455081879 , 2)
+       
+        //); 
+        //console.log(distance);
+        //exemple of pow and sqrt
+
+        //const a = 3;
+        //const b = 4;
+        //const c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+        //console.log(c);
+
+        //dates
+        //get recuperam valores e set 
+
+        //const date = new Date()
+
+        //console.log(date.getDate() + '/' + (date.getMonth() +1) + '/' + date.getFullYear())
+
+        //count day to my bday from today (03/10/2023)
+        //const today = new Date();
+        //const targetDate = new Date('December 15,2023');
+
+        //const timeDiff = targetDate.getTime() - today.getTime() + ' seconds';
+        //console.log(timeDiff);
+
+
+        //const today = new Date();
+        //const targetDate = new Date('March 20,2023');
+
+        //const timeDiff = targetDate.getTime() - today.getTime() + ' seconds babe bday';
+        //document.write(timeDiff);
+
+        //repeat forever lol
+
+        //function updateTime() {
+        //const now = new Date();
+        //const hours = now.getHours();
+        //const minutes = now.getMinutes();
+        //const seconds = now.getSeconds();
+        //const timeStr = `${hours}:${minutes}:${seconds}`;
+        //document.write(' repeat ')}
+        //setInterval(updateTime, 1000);
+
+        //
+
+        var date = new Date()
+        document.write(date.toString())
+        date.setDate(date.getDate() - 720)
+        document.write('<hr />')
+        document.write(date.toString())
+
+    </script>
+    
+</body>
+</html>
