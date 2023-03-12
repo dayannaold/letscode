@@ -8,63 +8,112 @@
 </head>
 <body>
     <script>
-        //var x = Math.random(10.580)
-        //document.write(x)
+        
+        /*
+        var x = Math.random(10.580)
+        document.write(x)
         
         // distance between Earth and Jupiter
-        //const distance = Math.sqrt(
+        const distance = Math.sqrt(
             //Math.pow(4.994977666432145 - 0.16209319116042935 , 2) +
             //Math.pow(1.0493621312872457 - 0.9686428793150534, 2) +
             //Math.pow(0.1121911453424374 - -0.00004416373455081879 , 2)
        
-        //); 
-        //console.log(distance);
+        ); 
+        console.log(distance);
         //exemple of pow and sqrt
 
-        //const a = 3;
-        //const b = 4;
-        //const c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
-        //console.log(c);
+        const a = 3;
+        const b = 4;
+        const c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+        console.log(c);
 
         //dates
         //get recuperam valores e set 
 
-        //const date = new Date()
+        const date = new Date()
 
-        //console.log(date.getDate() + '/' + (date.getMonth() +1) + '/' + date.getFullYear())
+        console.log(date.getDate() + '/' + (date.getMonth() +1) + '/' + date.getFullYear())
 
-        //count day to my bday from today (03/10/2023)
-        //const today = new Date();
-        //const targetDate = new Date('December 15,2023');
+        count day to my bday from today (03/10/2023)
+        const today = new Date();
+        const targetDate = new Date('December 15,2023');
 
-        //const timeDiff = targetDate.getTime() - today.getTime() + ' seconds';
-        //console.log(timeDiff);
+        const timeDiff = targetDate.getTime() - today.getTime() + ' seconds';
+        console.log(timeDiff);
 
 
-        //const today = new Date();
-        //const targetDate = new Date('March 20,2023');
+        const today = new Date();
+        const targetDate = new Date('March 20,2023');
 
-        //const timeDiff = targetDate.getTime() - today.getTime() + ' seconds babe bday';
-        //document.write(timeDiff);
+        const timeDiff = targetDate.getTime() - today.getTime() + ' seconds babe bday';
+        document.write(timeDiff);
 
         //repeat forever lol
 
-        //function updateTime() {
-        //const now = new Date();
-        //const hours = now.getHours();
-        //const minutes = now.getMinutes();
-        //const seconds = now.getSeconds();
-        //const timeStr = `${hours}:${minutes}:${seconds}`;
-        //document.write(' repeat ')}
-        //setInterval(updateTime, 1000);
+        function updateTime() {
+        const now = new Date();
+        const hours = now.getHours();
+        const minutes = now.getMinutes();
+        const seconds = now.getSeconds();
+        const timeStr = `${hours}:${minutes}:${seconds}`;
+        document.write(' repeat ')}
+        setInterval(updateTime, 1000);
 
-        //
 
         var date = new Date()
         document.write(date.toString())
-        date.setDate(date.getDate() - 720)
+        date.setDate(date.getDate() + 720)
         document.write('<hr />')
         document.write(date.toString())
+        document.write('<br/> <br/ ><hr />')
+
+        
+        document.write(date.toString())
+        date.setMonth(date.getMonth() + 1)
+        document.write('<hr />')
+        document.write(date.toString())
+        document.write('<br/> <br/ ><hr />')
+
+        document.write(date.toString())
+        date.setFullYear(date.getFullYear() - 2)
+        document.write('<hr />')
+        document.write(date.toString())
+
+        */
+
+        //12/03/2023
+        var date1 = new Date(2023, 2, 12)
+
+        //20/03/2023
+        var date2 = new Date(2023, 2, 19, 40, 0.3)
+
+        document.write(date1.toString())
+        document.write('<hr />')
+        document.write(date2.toString())
+
+        document.write('<br/> <br/ ><hr />')
+
+        //converter datas para algo que possamos calcular
+
+        document.write(date1.getTime())
+        document.write('<hr />')
+        document.write(date2.getTime())
+
+        //1 de janeiro de 1970
+        document.write('<br/> <br/ ><hr />')
+
+        
+
+        //encontrar a qtde de milisegundos entre var1 e var2
+        var milliseconds_between_dates  = Math.abs(date1.getTime() - date2.getTime())
+        document.write(milliseconds_between_dates)
+
+        var miliseconds_by_day = (1*24*60*60*1000)
+        document.write(' One day has: ' + miliseconds_by_day + ' milliseconds')
+
+        document.write('<br /> <br /> <hr />')
+        document.write(Math.ceil(milliseconds_between_dates/miliseconds_by_day))
 
     </script>
     
