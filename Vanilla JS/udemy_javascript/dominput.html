@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function caracter(){
+            //selecionar o valor digitado ->value
+           var caracter2 = console.log(document.getElementById("login").value)
+           //clean field text
+           document.getElementById('login').value = ''
+
+           //clean spaces in the strings
+           caracter2.trim()
+
+           switch(caracter2){
+            case'0':
+            case'1':
+            case'2':
+            case'3':
+            case'4':
+            case'5':
+            case'6':
+            case'7':
+            case'8':
+            case'9':
+            //switching caracter by number
+            document.getElementById('letters').value = caracter2
+            break;
+            document.getElementById('numbers').value = caracter2
+            default:
+            //letter
+           }
+        }
+    </script>
+</head>
+<body>
+        <input 
+        type="text" placeholder="type caracter here" 
+        onkeyup="caracter()"
+        id="login"
+        />
+        <hr>
+        <span>Letter:</span>
+        <input type="text" disabled="disable" id="letters" />
+        <span>Number:</span>
+        <input type="text" disabled="disable" id="numbers"/>
+</body>
+</html>
