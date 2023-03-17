@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style</title>
+    <script>
+        function chaning(backgroundcolor, 1, a){
+            document.getElementById('sqaure').style.backgroundColor = backgroundcolor
+            document.getElementById('sqaure').style.width = 1
+            document.getElementById('sqaure').style.height = a
+        }
+    </script>
+</head>
+<body>
+    <h3>Colors_Dom</h3>
+
+    <button type="button" onclick="changing('#ff0000', '200px')">Red</button>
+    <button type="button" onclick="changing('#00ff00','150px','20px')">Green</button>
+    <button type="button" onclick="changing('#000f0f', '150px', '200px')">Blue</button>
+    
+    <div id="square:" style: "solid 1px #000; width: 100px; height: 100px;"> </div>
+</body>
+</html>
