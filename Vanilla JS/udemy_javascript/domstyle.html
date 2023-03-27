@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styles - Elements </title>
+    <script>
+        function Modification(corDeFundo, l, a){
+            document.getElementById('quadrado').style.background = corDeFundo
+            document.getElementById('quadrado').style.width = l
+            document.getElementById('quadrado').style.height = a
+            //#ImageX
+        }
+    </script>
+</head>
+<body>
+    <h3>Style</h3>
+    <button type="button" onclick="Modification('#ff0000', '200px' )">Red </button>
+    <button type="button" onclick="Modification('#00ff00', '150px', '20px')">Green </button>
+    <button type="button" onclick="Modification('#0000ff', '150px', '200px')">Blue </button>
+    <hr>
+    <div style="border: solid 1px #000; width:100px; height: 100px" id="quadrado"></div>
+</body>
+</html>
